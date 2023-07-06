@@ -19,20 +19,20 @@ fieldset {
 nav ul li a {
   color: white;
 }
-.image-grid {
+ /* .image-grid {
   display: grid;
   gap: 25px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 325px 325px;
   margin: 0px;
   max-width: 100px;
-}
-.image-grid img {
+} */
+table img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-nav {
+} 
+nav { */
   color: white;
   width: 100%;
   margin: auto;
@@ -42,12 +42,11 @@ nav {
 }
 table {
   text-align: center;
-  width: 800px;
   border-collapse: collapse;
-  margin: auto;
+  width: 400px;
+  margin: 0;
   font-size: 20px;
 }
-th,
 td {
   border: 1px solid purple;
 }
