@@ -1,13 +1,37 @@
-.listing {
+body {
+  margin: 0;
+  background-image: url(home.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.image-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-    "aGK" "bC"
-    "cOTE gOHS"
-    "tOG" "hXH";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+h1 {
+  color: azure;
+}
+h2 {
+  color: white;
+}
+label {
+  color: white;
+}
+fieldset {
+  color: white;
+}
+nav ul li a {
+  color: white;
 }
 
+.image-grid > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
 nav {
+  color: white;
   width: 100%;
   margin: auto;
   display: flex;
