@@ -4,11 +4,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-.image-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
 h1 {
   color: azure;
 }
@@ -24,10 +19,17 @@ fieldset {
 nav ul li a {
   color: white;
 }
-
-.image-grid > img {
-  width: 100px;
-  height: 100px;
+.image-grid {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 325px 325px;
+  margin: 0px;
+  max-width: 100px;
+}
+.image-grid img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 nav {
