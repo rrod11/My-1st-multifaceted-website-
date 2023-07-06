@@ -1,2 +1,41 @@
 <!DOCTYPE >
-<html></html>
+<html>
+  <head>
+    <title>Anime Forum</title>
+    <link rel="stylesheet" href="styling.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Home.html" target="_blank">Home</a></li>
+          <li><a href="TopAnime.html" target="_blank">Anime Votes</a></li>
+          <li><a href="animeList.html" target="_blank">Anime List</a></li>
+          <li>
+            <a href="hallOfFame.html" target="_blank">Anime Hall of Fame</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <fieldset>
+      <label for="firstName">First Name</label> <br />
+      <input type="text" name="firstName" id="fn" /> <br />
+      <label for="lastName">Last Name</label> <br />
+
+      <input type="text" name="lastName" id="ln" /> <br />
+      <label for="favAnime">Favorite Anime</label> <br />
+      <ul>
+        <li><input type="checkbox" name="AoT" id="aot" /> Attack on Titan</li>
+        <li><input type="checkbox" name="bC" id="bC" /> Black Clover</li>
+        <li>
+          <input type="checkbox" name="cOTE" id="cOTE" /> Classroom of the Elite
+        </li>
+        <li><input type="checkbox" name="dS" id="dS" /> Demon Slayer</li>
+      </ul>
+      <label for="animeSuggestion">Anime Suggestion Box</label> <br />
+      <textarea name="animeSuggestion" id="as" cols="30" rows="10"></textarea>
+      <br />
+      <button>Submit</button>
+    </fieldset>
+  </body>
+</html>

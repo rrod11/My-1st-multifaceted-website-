@@ -1,0 +1,16 @@
+.listing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "aGK" "bC"
+    "cOTE gOHS"
+    "tOG" "hXH";
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
