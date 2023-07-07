@@ -41,12 +41,15 @@ nav { */
   justify-content: space-between;
 }
 table {
+  columns: 3;
+  grid-auto-rows: auto;
   text-align: center;
   border-collapse: collapse;
-  width: 400px;
+  width: auto;
   margin: 0;
   font-size: 20px;
 }
 td {
   border: 1px solid purple;
 }
+
